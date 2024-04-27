@@ -922,9 +922,9 @@ events.cmd({
     }
     let _0x14cff4 = [...new Set([..._0x35816f.filter(_0x2822d6 => _0x2822d6.user).map(_0x2b342c => _0x2b342c.user)])];
     if (!_0x14cff4 || !_0x14cff4[0]) {
-      return await _0x48b928.reply("*There's no user has shared 'asta md'!*");
+      return await _0x48b928.reply("*There's no user has shared 'panther md'!*");
     }
-    let _0x1b2187 = "*[Asta-MD Rent Users]*\n\n";
+    let _0x1b2187 = "*[Panther-MD Rent Users]*\n\n";
     let _0x261278 = [];
     let _0xa5efb9 = 1;
     for (let _0x5adbc2 of _0x14cff4) {
@@ -938,7 +938,7 @@ events.cmd({
       mentions: [..._0x261278],
       contextInfo: {
         externalAdReply: {
-          title: "Asta-Md Share list",
+          title: "Panther-Md Share list",
           sourceUrl: gurl
         }
       }
@@ -959,7 +959,7 @@ events.cmd({
   try {
     let _0x21c25c = global.renters;
     if (!_0x21c25c || !_0x21c25c[0]) {
-      return await _0x5d40b9.reply("*No user has rent 'asta md' yet!*");
+      return await _0x5d40b9.reply("*No user has rent 'panther md' yet!*");
     }
     let _0x3c0e18 = _0x5d40b9.reply_message ? _0x5d40b9.reply_message.sender : _0x5d40b9.mentionedJid[0] ? _0x5d40b9.mentionedJid[0] : false;
     let _0x2e6489 = (_0xb3196a.split(" ")[0] || "")?.replace(/[\s+]/g, "") || "";
@@ -976,7 +976,7 @@ events.cmd({
         mentions: [_0x34f1e0]
       });
     } else {
-      return await _0x5d40b9.reply("*There's no user who has shared 'asta md'!*");
+      return await _0x5d40b9.reply("*There's no user who has shared 'panther md'!*");
     }
   } catch (_0x5bad57) {
     _0x5d40b9.reply("_ERROR!_");
