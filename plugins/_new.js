@@ -20,7 +20,7 @@ let {
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑾𝑨𝑪𝑯𝑨𝑵𝑵𝑬𝑳\n\n _𝙹𝙾𝙸𝙽 𝙰𝙽𝙳 𝙵𝙾𝙻𝙻𝙾𝚆 𝚃𝙷𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝙱𝙴 𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝙻𝙰𝚃𝙴𝚂𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `𝘼𝙎𝙏𝘼 𝙈𝘿 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙎𝙐𝙋𝙋𝙊𝙍𝙏\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -39,7 +39,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑾𝑨𝑮𝑹𝑶𝑼𝑷\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/Cq94ibBs0KQ0R1m9cVWNeN\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `𝘼𝙎𝙏𝘼 𝙈𝘿 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙧𝙤𝙪𝙥\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/GzKCborGlGN41XSHtslLri\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -150,7 +150,7 @@ smd(
    filename: __filename
  }, async _0x17bb63 => {
    try {
-     let _0x12a593 = "*BOT RUNNING WELL!*";
+     let _0x12a593 = "*BOT CURRENTLY ACTIVE!*";
      await _0x17bb63.reply(_0x12a593, {
        contextInfo: {
          externalAdReply: {
@@ -198,7 +198,7 @@ smd(
        return await _0x7587f6.reply("_Reply to an image/video message!_");
      }
      if (!_0x11eeb1) {
-       return await _0x7587f6.reply("_Need fileName, Example: document panther | caption_");
+       return await _0x7587f6.reply("_Need fileName, Example: document asta | caption_");
      }
      let _0x1bfcf5 = await _0x7587f6.bot.downloadAndSaveMediaMessage(_0x49db20);
      let _0x3f6d77 = _0x11eeb1.includes(":") ? ":" : _0x11eeb1.includes(";") ? ";" : "|";
@@ -228,7 +228,7 @@ smd(
    filename: __filename
  }, async (_0x241c6f, _0x5ce27a) => {
    try {
-     let _0x1ad = _0x241c6f.image || _0x241c6f.video ? _0x241c6f : _0x241c6f.reply_message && (_0x241c6f.reply_message.image || _0x241c6f.reply_message.video) ? _0x241c6f.reply_message : false;
+     let _0x1d26ad = _0x241c6f.image || _0x241c6f.video ? _0x241c6f : _0x241c6f.reply_message && (_0x241c6f.reply_message.image || _0x241c6f.reply_message.video) ? _0x241c6f.reply_message : false;
      if (!_0x1d26ad) {
        return await _0x241c6f.reply("_Reply to image/video with caption!_");
      }
@@ -250,6 +250,10 @@ smd(
        _0x241c6f.reply("*Request Denied!*");
      }
    } catch (_0x2422e7) {
+     await _0x241c6f.error(_0x2422e7 + "\n\ncommand : tovv", _0x2422e7, false);
+   }
+ });
+ smd({
    cmdname: "feature",
    category: "misc",
    filename: __filename,
@@ -471,7 +475,7 @@ smd(
    try {
      let _0x587b99 = _0x41dfb5.split(" ")[0].trim();
      if (!_0x587b99) {
-       return await _0x4cdec8.reply("*Need URL! Use " + prefix + "ss https://github.com/ibrahimaitech/IBRAHIM-MD*");
+       return await _0x4cdec8.reply("*Need URL! Use " + prefix + "ss https://github.com/Astropeda/Asta-Md*");
      }
      let _0x358290 = await ssweb(_0x587b99);
      if (_0x358290 && _0x358290.status == "200") {
