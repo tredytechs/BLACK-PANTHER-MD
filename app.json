@@ -42,7 +42,7 @@
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",
       "required" :false,    
-      "value": "true"
+      "value": "false"
     },     
     "READ_COMMAND": {
       "description": " Read bot cmds",
