@@ -150,7 +150,7 @@ smd(
    filename: __filename
  }, async _0x17bb63 => {
    try {
-     let _0x12a593 = "*BOT RUNNING WELL!*";
+     let _0x12a593 = "*BOT CURRENTLY ACTIVE!*";
      await _0x17bb63.reply(_0x12a593, {
        contextInfo: {
          externalAdReply: {
