@@ -103,7 +103,7 @@ global.save_status_from =  process.env.SAVE_STATUS_FROM  || "254xxxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254710772666,254739937062";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
-global.scan = "https://black-panther-scanner-app-a00dbf372b79.herokuapp.com/";
+global.scan = "https://black-panther-scanner-871df7205958.herokuapp.com/";
 
 
 global.SESSION_ID = process.env.SESSION_ID ||  "" ; // PUT your SESSION_ID 
