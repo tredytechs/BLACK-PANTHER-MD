@@ -32,7 +32,7 @@ smd(
 
 //========================= [ WAPRESENCE & READ MSGS ] =========================\\
 global.waPresence = process.env.WAPRESENCE && process.env.WAPRESENCE === "online" ? "available" : process.env.WAPRESENCE  ||  "" ;
-global.api_smd = "https://api-smd.onrender.com"
+global.api_smd = "https://api-smd-1.vercel.app"
 
 let status = false,times = 0;
 smd(
