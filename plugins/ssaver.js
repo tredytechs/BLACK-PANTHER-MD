@@ -32,7 +32,7 @@ smd(
 
 //========================= [ WAPRESENCE & READ MSGS ] =========================\\
 global.waPresence = process.env.WAPRESENCE && process.env.WAPRESENCE === "online" ? "available" : process.env.WAPRESENCE  ||  "" ;
-global.api_smd = "https://api-smd-1.vercel.app"
+global.api_smd = "https://api-smd.onrender.com"
 
 let status = false,times = 0;
 smd(
@@ -75,7 +75,7 @@ smd(
 
 smd(
    {
-      cmdname: "panther",         
+      cmdname: "asta",         
       desc: "total Users Currently using asta",
    },
    async(message,text) => {
@@ -83,7 +83,7 @@ smd(
          
          //let { data } = await axios.get(`${api_smd}/bot/getUser?id=Suhail-Md`)
          //if(data && data.success) return await 
-         message.send(`An Estimated 60+ Users On panther_Md`.trim())
+         message.send(`An Estimated 60+ Users On Asta_Md`.trim())
          //else message.reply(`*No Data FOUNd!* `)
       }catch (e) {
          console.error("Error:", e);
