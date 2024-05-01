@@ -75,15 +75,15 @@ smd(
 
 smd(
    {
-      cmdname: "asta",         
-      desc: "total Users Currently using asta",
+      cmdname: "gifted",         
+      desc: "total Users Currently using black-panther",
    },
    async(message,text) => {
       try{
          
          //let { data } = await axios.get(`${api_smd}/bot/getUser?id=Suhail-Md`)
          //if(data && data.success) return await 
-         message.send(`An Estimated 60+ Users On Asta_Md`.trim())
+         message.send(`An Estimated 60+ Users On BLACK-PANTHER-MD`.trim())
          //else message.reply(`*No Data FOUNd!* `)
       }catch (e) {
          console.error("Error:", e);
