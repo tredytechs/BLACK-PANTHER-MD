@@ -1,27 +1,7 @@
-## THIS REPO IS FOR POEOPLE WHO WANT TO DEPLOY ON  RAILWAY AND  KOYEB ONLY
+## THIS REPO IS FOR POEOPLE WHO WANT TO DEPLOY ON  RAILWAY AND OTHER WEBS ONLY
+
+## FORK THIS REPO BEFORE YOU DEPLOY ON RAILWAY
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/kqO_n5?referralCode=AqkNn4)
 
 [`IF YOU WANT TO DEPLOY ON HEROKU TAP HERE YOU OPEN HEROKU REPO`](https://github.com/ibrahimaitech/IBRAHIM-MD)
-
-## Steps
-# Fork the repo then go to your website eg railway, koyeb, rendor, etc then connect  this repo
-                                                 
-## must add this vars for the bot to work
-
-
-
-SESSION_ID
-
-
-DISABLE_PM
-
-
-
-AUTO_READ_STATUS
-
-
-
-WAPRESENCE
-
-
-
-OWNER_NAME
