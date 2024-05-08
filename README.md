@@ -8,7 +8,7 @@
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app?referralCode=AqkNn4)
 
 
-*[`IF YOU WANT TO DEPLOY ON HEROKU TAP HERE YOU OPEN HEROKU REPO`](https://github.com/ibrahimaitech/IBRAHIM-MD)*
+*[`IF YOU WANT TO DEPLOY ON HEROKU TAP HERE YOU OPEN HEROKU REPO`](https://github.com/ibrahimaitech/BLACK-PANTHER-XMD)*
 
 ## Copy this you will use it
 SESSION_ID
