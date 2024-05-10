@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "𝑩𝑳𝑨𝑪𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹 𝑴𝑫"
+      "value": "𝙋𝘼𝙉𝙏𝙃𝙀𝙍 𝙈𝘿"
     }, 
     "USER_IMAGES": {
       "description": "Image for bot",
